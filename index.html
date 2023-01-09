@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="a.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>岩手魅力サイト</title>
+  </head>
+  <body class="color">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark p-1"
+      style="background-color: red"
+      id="g_navi"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="a.html"><h1>岩手魅力</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0" id="sample_perent">
+            <li class="nav-item sample">
+              <a class="nav-link" href="food.html"><h1>食</h1></a>
+            </li>
+            <li class="nav-item sample">
+              <a class="nav-link" href="culture.html"><h1>文化</h1></a>
+            </li>
+            <li class="nav-item sample">
+              <a class="nav-link" href="celebrity.html"><h1>有名人</h1></a>
+            </li>
+            <li class="nav-item sample">
+              <a class="nav-link" href="sightseeing.html"><h1>観光</h1></a>
+            </li>
+            <li class="nav-item dropdown sample">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <h2>ライターページ</h2>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="yoshitaka.html">石川義峻</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="kousuke.html">鈴木孔亮</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="kouhei.html">澤田康平</a>
+                </li>
+                <li><a class="dropdown-item" href="jin.html">熊谷仁</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="a.html"><h3>Home</h3></a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/4097644855_00f48e5b8d_b.jpg"
+            class="b-block w-80"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="img/IMG_2145.jpg" class="c-block w-80" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/Ootanisan.jpg" class="d-block w-80" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/KI001page.jpg" class="d-block w-80" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <div id="footer">
+      <p class="copyright">©moppeMIRYOKUteam.</p>
+    </div>
+  </body>
+</html>
