@@ -81,3 +81,42 @@ h3:before {
 h3:after {
     right: 12rem;
 }
+
+.breadcrumb {
+  margin-top: 10px;
+  width: fit-content;
+  display: flex;
+  margin-left: 19px;
+  gap: 0.5rem;
+  padding: 3rem;
+  border-radius: 0.2rem;
+  border: 0px solid #3998db;
+  background-color: white;
+  color: white;
+  list-style: none;
+}
+
+.breadcrumb li {
+  font-weight: bold;
+  font-size: 1rem;
+  font-display: initial;
+}
+
+.breadcrumb li:after {
+  margin-top: 10px;
+  padding: 0 0 2rem 2rem;
+  font-family: "Marlett";
+  font-weight: 250px;
+  font-size: 1rem;
+  
+}
+
+.breadcrumb li:last-child::after {
+  padding: 0;
+  content: "";
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #3998db;
+}
