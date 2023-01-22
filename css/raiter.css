@@ -75,11 +75,11 @@ h3:after {
 }
 
 h3:before {
-    left: 12rem;
+    left: 11rem;
 }
 
 h3:after {
-    right: 12rem;
+    right: 11rem;
 }
 
 .breadcrumb {
