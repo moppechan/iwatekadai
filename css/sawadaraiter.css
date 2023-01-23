@@ -47,12 +47,12 @@
   }
   .flex .title {
     margin-top: 45px;
-    padding: 0;
+    padding: 0 80px 0 10px;
     font-weight: bold;
     font-size: 30px;
   }
   .flex .text {
-    margin: 10px 0 0;
+    margin-left: -80px;
     padding: 0;
   }
 
@@ -75,11 +75,11 @@ h3:after {
 }
 
 h3:before {
-    left: 12rem;
+    left: 5rem;
 }
 
 h3:after {
-    right: 12rem;
+    right: 9rem;
 }
 
 .breadcrumb {
