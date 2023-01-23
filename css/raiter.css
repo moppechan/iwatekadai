@@ -30,7 +30,7 @@
 
 
 .flex {
-  display: flex; /*横並び*/
+  display: flex; 
 }
 .flex .image {
   width: 640px; /*画像サイズ指定*/
