@@ -64,12 +64,3 @@ h3 {
   font-size: 26px;
   text-align: center;
 }
-
-h3:before,
-h3:after {
-  position: absolute;
-  top: 48%;
-  width: 3rem;
-  border-top: 2px dashed;
-  content: "";
-}
