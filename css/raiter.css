@@ -74,12 +74,3 @@ h3:after {
   border-top: 2px dashed;
   content: "";
 }
-
-h3:before {
-
-    left: 11rem;
-}
-
-h3:after {
-    right: 11rem;
-}
