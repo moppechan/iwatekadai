@@ -28,10 +28,9 @@
   width: 20px;
 }
 
-/* 横並び */
 
 .flex {
-  display: flex; /*横並び*/
+  display: flex; 
 }
 .flex .image {
   width: 640px; /*画像サイズ指定*/
@@ -73,13 +72,4 @@ h3:after {
   width: 3rem;
   border-top: 2px dashed;
   content: "";
-}
-
-h3:before {
-
-    left: 11rem;
-}
-
-h3:after {
-    right: 11rem;
 }
